@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MyDialog">
+      <UniqueIdentifier>{77e144b4-b019-479c-a330-aaf32b11277e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D">
+      <UniqueIdentifier>{43ceb97b-6216-4242-bedc-fc169a3d01c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D\Xfile">
+      <UniqueIdentifier>{d249ba3a-2aab-4fd4-b77c-a23853035f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyManager">
+      <UniqueIdentifier>{3714bc4a-903b-4750-9d1e-0975d688a1c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MabiCharacterTool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MabiCharacterToolDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationDialog.h">
+      <Filter>MyDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDialog.h">
+      <Filter>MyDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEditBrowseCtrl.h">
+      <Filter>MyDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTabCtrl.h">
+      <Filter>MyDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedMesh.h">
+      <Filter>D3D\Xfile</Filter>
+    </ClInclude>
+    <ClInclude Include="cZealot.h">
+      <Filter>D3D\Xfile</Filter>
+    </ClInclude>
+    <ClInclude Include="cAllocateHierarchy.h">
+      <Filter>D3D\Xfile</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>MyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeManager.h">
+      <Filter>MyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>MyManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MabiCharacterTool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MabiCharacterToolDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationDialog.cpp">
+      <Filter>MyDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterDialog.cpp">
+      <Filter>MyDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTabCtrl.cpp">
+      <Filter>MyDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEditBrowseCtrl.cpp">
+      <Filter>MyDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedMesh.cpp">
+      <Filter>D3D\Xfile</Filter>
+    </ClCompile>
+    <ClCompile Include="cZealot.cpp">
+      <Filter>D3D\Xfile</Filter>
+    </ClCompile>
+    <ClCompile Include="cAllocateHierarchy.cpp">
+      <Filter>D3D\Xfile</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>MyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeManager.cpp">
+      <Filter>MyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>MyManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MabiCharacterTool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MabiCharacterTool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MabiCharacterToolDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\MabiCharacterTool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
